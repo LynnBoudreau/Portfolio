@@ -1,3 +1,3 @@
 #Portfolio
 link to repository: https://github.com/LynnBoudreau/Portfolio
-added css
+link to published page: https://lynnboudreau.github.io/Portfolio/
