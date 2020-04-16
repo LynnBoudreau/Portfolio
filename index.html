@@ -2,40 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Page</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="/Portfolio.html/assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
-
+  <div id="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Lynn Boudreau</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/contact.html">Contact</a>
-                    <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="/index.html">About</a>
-                </div>
-            </div>
+      <a class="navbar-brand" href="#">Lynn Boudreau</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
 
-        </div>
-
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <h1>HOME PAGE</h1>
+  </div>
 
+  <div id="content">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="card col-12">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <hr>
+            <div class="image-section row">
+              <div class="col-4">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+                  alt="" class="col-12">
+              </div>
+              <div class="col-8">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolores itaque mollitia cupiditate
+                  similique omnis nulla totam inventore odit modi, sunt accusamus, dolore repellat earum. Iusto,
+                  laudantium. In, iste distinctio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                  dolores itaque mollitia cupiditate
+                  similique omnis nulla totam inventore odit modi, sunt accusamus, dolore repellat earum. Iusto,
+                  laudantium. In, iste distinctio!
+                </p>
+              </div>
+            </div>
+            <div class="text-section row">
+              <div class="col-12">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dolorum veniam architecto quo
+                  veritatis id modi incidunt velit quia excepturi eveniet tenetur laudantium nobis ratione deserunt,
+                  nulla corrupti? Placeat, porro.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="footer">
+    <footer class="blog-footer">
+      <p>Portfolio template built for <a href="https://getbootstrap.com/">UNH Coding Bootcamp</a> by <a
+          href="https://twitter.com/LWBoudreau">lynnboudreau.com</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
