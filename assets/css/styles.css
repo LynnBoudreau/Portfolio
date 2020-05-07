@@ -1,11 +1,15 @@
-h5.card-title{
-  color: rgba(0, 109, 128, 0.589);
+h3.card-title {
+  color: rgba(5, 41, 48, 0.589);
+}
+
+h5.card-title {
+  color: rgba(5, 41, 48, 0.589);
 }
 
 .blog-footer {
-    padding: 2.0rem 0;
-    color: rgb(153, 153, 153);
-    text-align: center;
-    background-color: #f9f9f9;
-    border-top: .05rem solid #e5e5e56e;
+  padding: 2rem 0;
+  color: rgba(153, 153, 153);
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #c7baba5e;
 }
